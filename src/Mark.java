@@ -1,0 +1,1 @@
+/** * Created by Kate on 01/02/16. */public enum Mark {  // default value of Enum is null    X,    O;}

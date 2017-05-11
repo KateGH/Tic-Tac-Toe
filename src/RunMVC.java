@@ -1,0 +1,1 @@
+public class RunMVC {    public RunMVC(){        Model myModel = new Model();        BoardView myView = new BoardView();        myModel.addObserver(myView);        Controller myController = new Controller(myModel, myView);        myView.addModel(myModel);    }}
